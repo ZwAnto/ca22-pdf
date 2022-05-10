@@ -1,0 +1,208 @@
+categories:
+  - id: 100
+    libelle: Dépenses vie courante
+    sous-categories:
+    - id: 101
+      libelle: Alimentation, supermarché
+    - id: 102
+      libelle: Animaux
+    - id: 103
+      libelle: Cadeaux offerts
+    - id: 104
+      libelle: Coiffeur, esthétique, cosmétique, soins
+    - id: 105
+      libelle: Dons caritatifs
+    - id: 106
+      libelle: Habillement, accessoires
+    - id: 107
+      libelle: Internet, TV, télécom
+    - id: 108
+      libelle: Remb. prêt conso
+    - id: 109
+      libelle: Shopping/e-Commerce
+    - id: 110
+      libelle: Snacks, repas au travail
+    - id: 111
+      libelle: Tabac/Presse
+
+  - id: 200
+    libelle: Education, formation
+    sous-categories:
+    - id: 201
+      libelle: Cours, soutien scolaire
+    - id: 202
+      libelle: Inscription, scolarité
+    - id: 203
+      libelle: Livres, fournitures (éducation)
+    - id: 204
+      libelle: Remb. prêt étudiant
+
+  - id: 300
+    libelle: Enfants
+    sous-categories:
+    - id: 301
+      libelle: Activités enfants
+    - id: 302
+      libelle: Argent de poche
+    - id: 303
+      libelle: Assurance scolaire
+    - id: 304
+      libelle: Garde d'enfants
+    - id: 305
+      libelle: Jouets, cadeaux
+    - id: 306
+      libelle: Pension versée
+    - id: 307
+      libelle: Restauration scolaire
+
+  - id: 400
+    libelle: Impôts
+    sous-categories:
+    - id: 402
+      libelle: Contributions sociales
+    - id: 403
+      libelle: Impôts sur le revenu
+    - id: 404
+      libelle: ISF
+    - id: 405
+      libelle: Taxes foncières, d'habitation
+
+  - id: 500
+    libelle: Logement, immobilier
+    sous-categories:
+    - id: 501
+      libelle: Assurance logement
+    - id: 502
+      libelle: Charges logement
+    - id: 503
+      libelle: Eau
+    - id: 504
+      libelle: Electricité, gaz, chauffage
+    - id: 505
+      libelle: Loyer
+    - id: 506
+      libelle: Meubles, équipement
+    - id: 507
+      libelle: Remb. prêt immobilier
+    - id: 508
+      libelle: Travaux, déco, jardin
+
+  - id: 600
+    libelle: Santé, prévoyance
+    sous-categories:
+    - id: 601
+      libelle: Cotis mutuelle, prévoyance
+    - id: 602
+      libelle: Frais, remb santé
+
+  - id: 700
+    libelle: Services
+    sous-categories:
+    - id: 701
+      libelle: Aide-à-domicile
+    - id: 702
+      libelle: Assurances
+    - id: 703
+      libelle: Conseil financier
+    - id: 704
+      libelle: Conseil juridique
+    - id: 705
+      libelle: Frais bancaires
+    - id: 706
+      libelle: Poste, courrier
+
+  - id: 800
+    libelle: Sorties, voyages
+    sous-categories:
+    - id: 801
+      libelle: Avion/train/bateau...
+    - id: 802
+      libelle: Restaurants, soirées
+    - id: 803
+      libelle: Sorties culturelles
+    - id: 804
+      libelle: Sorties détente
+    - id: 805
+      libelle: Voyages
+    - id: 806
+      libelle: Hotel
+    - id: 807
+      libelle: Livraisons
+
+  - id: 900
+    libelle: Sports, loisirs
+    sous-categories:
+    - id: 901
+      libelle: Cotis. sports, loisirs
+    - id: 902
+      libelle: Cours sports, loisirs
+    - id: 903
+      libelle: Electronique, multimédia
+    - id: 904
+      libelle: Equipement sports, loisirs
+    - id: 905
+      libelle: Musique, livres, films
+    - id: 906
+      libelle: Passion, hobby
+
+  - id: 1000
+    libelle: Transports, véhicules
+    sous-categories:
+    - id: 1001
+      libelle: Achat véhicule
+    - id: 1002
+      libelle: Assurance véhicule
+    - id: 1003
+      libelle: Carburant
+    - id: 1004
+      libelle: Entretien, équipements véhicules
+    - id: 1005
+      libelle: Garage, parking privé
+    - id: 1006
+      libelle: Location véhicule
+    - id: 1007
+      libelle: Parking, péages, PV
+    - id: 1008
+      libelle: Remb. prêt véhicule
+    - id: 1009
+      libelle: Taxi et VTC
+    - id: 1010
+      libelle: Transports en commun
+    - id: 1011
+      libelle: Trains
+
+  - id: 1100
+    libelle: Revenus
+    sous-categories:
+    - id: 1101
+      libelle: Aides et allocations
+    - id: 1102
+      libelle: Cadeaux, dons reçus
+    - id: 1103
+      libelle: Dividendes
+    - id: 1104
+      libelle: Intérêts
+    - id: 1105
+      libelle: Retraite
+    - id: 1106
+      libelle: Revenus complémentaires
+    - id: 1107
+      libelle: Revenus de remplacement
+    - id: 1108
+      libelle: Revenus locatifs
+    - id: 1109
+      libelle: Salaire/Revenus d'activité
+
+  - id: 1200
+    libelle: Autres
+    sous-categories:
+    - id: 1201
+      libelle: Virements
+    - id: 1202
+      libelle: Retraits
+  
+  
+  - id: 9900
+    libelle: Labels 1
+  - id: 9901
+    libelle: Labels 2
