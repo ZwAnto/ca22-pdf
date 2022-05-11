@@ -1,9 +1,9 @@
-import re
-import pandas as pd
-from itertools import chain
-import os
-from pathlib import Path
 import locale
+import os
+import re
+from itertools import chain
+
+import pandas as pd
 
 locale.setlocale(locale.LC_TIME, "fr_FR.UTF-8")
 
