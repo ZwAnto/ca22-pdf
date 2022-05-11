@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ca22-pdf"
-version = "0.2.0"
+version = "0.2.1"
 description = ""
 authors = ["zwanto <antoine.hamon@protonmail.com>"]
 
