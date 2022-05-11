@@ -4,7 +4,8 @@ from itertools import chain
 import os
 from pathlib import Path
 import locale
-locale.setlocale(locale.LC_TIME, "fr_FR.UTF-8")
+
+locale.setlocale(locale.LC_TIME, "C.UTF-8")
 
 TRESHOLD_DEBIT_CREDIT = 10
 
