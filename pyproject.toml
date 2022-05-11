@@ -9,7 +9,6 @@ python = "^3.8"
 pandas = "^1.4.0"
 sqlalchemy = {git = "https://github.com/sqlalchemy/sqlalchemy.git", rev = "0566df2"}
 PyYAML = "^6.0"
-streamlit = "^1.5.0"
 absl-py = "^1.0.0"
 webdavclient3 = "^3.14.6"
 
