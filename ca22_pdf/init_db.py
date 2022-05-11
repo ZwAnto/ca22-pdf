@@ -42,7 +42,7 @@ def main(argv):
         session.bulk_save_objects(trx)
         session.commit()
 
-        categories = yaml.load(open(str(Path(conf.__path__) / 'categories.yml')), Loader=yaml.BaseLoader)
+        categories = yaml.load(open(Path(conf.__path__._path[0]) / 'categories.yml'), Loader=yaml.BaseLoader)
         
         trx = []
         for parent in categories['categories']:
