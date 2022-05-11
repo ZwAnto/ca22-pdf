@@ -8,6 +8,7 @@ from absl import app, flags
 from sqlalchemy import create_engine
 from sqlalchemy.orm import Session
 
+from ca22_pdf import conf
 from ca22_pdf.db.base import Base
 from ca22_pdf.db.model import Association, Categorie, Transaction
 from ca22_pdf.parser import parse_single_pdf
@@ -41,7 +42,7 @@ def main(argv):
         session.bulk_save_objects(trx)
         session.commit()
 
-        categories = yaml.load(open('data/categories.yml'), Loader=yaml.BaseLoader)
+        categories = yaml.load(open(Path(conf.__path__) / 'categories.yml'), Loader=yaml.BaseLoader)
         
         trx = []
         for parent in categories['categories']:
